@@ -34,8 +34,8 @@ public class PrefixSearchTree {
 
     public void insertKey(String key) {
         int index;
-        int keyLength = key.length();
         key = PrefixSearchTreeUtility.preProcessKey(key);
+        int keyLength = key.length();
 
         Node crawler = this.searchTreeRootNode;
 

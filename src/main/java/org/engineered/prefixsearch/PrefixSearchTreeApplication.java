@@ -23,7 +23,8 @@ public class PrefixSearchTreeApplication {
         prefixSearchTree.insertKey("rest");
         prefixSearchTree.insertKey("restapi");
         prefixSearchTree.insertKey("graph-api");
-
+        prefixSearchTree.insertKey("giraffe");
+        prefixSearchTree.insertKey("gandalf");
 
         PrefixSearchTreeTraverser prefixSearchTreeTraverser = new PrefixSearchTreeTraverser();
         List<String> searchResults = prefixSearchTreeTraverser
