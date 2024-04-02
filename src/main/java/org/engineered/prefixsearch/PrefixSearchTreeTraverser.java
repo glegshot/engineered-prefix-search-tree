@@ -15,16 +15,17 @@ public class PrefixSearchTreeTraverser {
     public List<String> search(String key, Node searchTreeRootNode) {
 
         key = PrefixSearchTreeUtility.preProcessKey(key);
-
-        Node prefixKeyEndNode = findForExactKeyMatch(key, searchTreeRootNode);
-
         this.searchResults = new ArrayList<>(MAX_SEARCH_SUGGESTIONS);
 
-        if(prefixKeyEndNode != null) {
-            if(prefixKeyEndNode.isEndOfWord) {
-                this.searchResults.add(key);
+        if (!key.isBlank() && !key.isEmpty()) {
+            Node prefixKeyEndNode = findForExactKeyMatch(key, searchTreeRootNode);
+
+            if (prefixKeyEndNode != null) {
+                if (prefixKeyEndNode.isEndOfWord) {
+                    this.searchResults.add(key);
+                }
+                findSuggestions(prefixKeyEndNode, key);
             }
-            findSuggestions(prefixKeyEndNode, key);
         }
 
         return searchResults;
