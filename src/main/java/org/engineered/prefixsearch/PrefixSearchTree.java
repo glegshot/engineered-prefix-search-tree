@@ -9,6 +9,14 @@ import static org.engineered.prefixsearch.PrefixSearchTreeConstants.ELEMENT_ARRA
 public class PrefixSearchTree {
     Node searchTreeRootNode;
 
+    public Node getSearchTreeRootNode() {
+        return searchTreeRootNode;
+    }
+
+    public void setSearchTreeRootNode(Node searchTreeRootNode) {
+        this.searchTreeRootNode = searchTreeRootNode;
+    }
+
     public PrefixSearchTree() {
         this.searchTreeRootNode = new Node();
     }
