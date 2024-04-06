@@ -1,21 +1,26 @@
 {
   "array": [
     {
-      "url": "https://glegshot.github.io/case/article?case=j1"
+      "url": "https://glegshot.github.io/case/article?case=j1",
+	  "title": "Article1"
     },
     {
-      "url": "https://glegshot.github.io/case/article?case=j3"
+      "url": "https://glegshot.github.io/case/article?case=j3",
+	  "title": "Article3"
     }
   ],
   "string": [
     {
-      "url": "https://glegshot.github.io/case/article?case=j2"
+      "url": "https://glegshot.github.io/case/article?case=j2",
+	  "title": "Article2"
     },
     {
-      "url": "https://glegshot.github.io/case/article?case=j3"
+      "url": "https://glegshot.github.io/case/article?case=j3",
+	  "title": "Article3"
     }
   ],
   "overflow": {
-    "url": "https://glegshot.github.io/case/article?case=j1"
+    "url": "https://glegshot.github.io/case/article?case=j1",
+	"title": "Article1"
   }
 }
