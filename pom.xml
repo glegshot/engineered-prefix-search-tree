@@ -5,8 +5,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.engineered.prefixsearch</groupId>
-    <artifactId>prefix-search-tree</artifactId>
+    <artifactId>prefix-search-engine</artifactId>
     <version>1.0-SNAPSHOT</version>
+    <packaging>pom</packaging>
+
+    <modules>
+        <module>search-indexer</module>
+        <module>prefix-searcher</module>
+    </modules>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>

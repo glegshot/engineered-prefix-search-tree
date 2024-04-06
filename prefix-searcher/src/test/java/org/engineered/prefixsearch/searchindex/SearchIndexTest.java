@@ -1,4 +1,4 @@
-package org.engineered.searchindex;
+package org.engineered.prefixsearch.searchindex;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonElement;

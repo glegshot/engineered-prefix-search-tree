@@ -1,7 +1,7 @@
 package org.engineered;
 
 import com.google.gson.JsonElement;
-import org.engineered.searchindex.SearchIndex;
+import org.engineered.prefixsearch.searchindex.SearchIndex;
 import org.engineered.prefixsearch.PrefixSearchTree;
 import org.engineered.prefixsearch.PrefixSearchTreeTraverser;
 
