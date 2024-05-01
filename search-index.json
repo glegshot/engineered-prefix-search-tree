@@ -19,8 +19,10 @@
 	  "title": "Article3"
     }
   ],
-  "overflow": {
-    "url": "https://glegshot.github.io/case/article?case=j1",
-	"title": "Article1"
-  }
+  "overflow":[
+	{
+		"url": "https://glegshot.github.io/case/article?case=j1",
+		"title": "Article1"
+	}
+  ]
 }
