@@ -19,7 +19,7 @@ public class SearchHandler implements RequestHandler<APIGatewayProxyRequestEvent
         logger.log("Invoking Function " + context.getFunctionName());
 
         String searchKey = event.getQueryStringParameters().get("q");
-        System.out.println("Search Key: "+ searchKey);
+        logger.log("Search Key: "+ searchKey);
 
         logger.log("Loading Search Index....");
         SearchIndex searchIndex = new SearchIndex();
